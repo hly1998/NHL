@@ -1,0 +1,186 @@
+2024-03-06 10:38:00,449 - root - INFO - ResNet epoch:8 bit:8 dataset:imagenet MAP:0.43713710181722415 Best MAP: 0.43713710181722415
+2024-03-06 10:46:07,406 - root - INFO - ResNet epoch:16 bit:8 dataset:imagenet MAP:0.4477891921309289 Best MAP: 0.4477891921309289
+2024-03-06 10:53:53,034 - root - INFO - ResNet epoch:24 bit:8 dataset:imagenet MAP:0.45318200986294543 Best MAP: 0.45318200986294543
+2024-03-06 11:01:49,089 - root - INFO - ResNet epoch:32 bit:8 dataset:imagenet MAP:0.4517763850455405 Best MAP: 0.45318200986294543
+2024-03-06 11:10:17,693 - root - INFO - ResNet epoch:40 bit:8 dataset:imagenet MAP:0.45222560907849113 Best MAP: 0.45318200986294543
+2024-03-06 11:18:09,684 - root - INFO - ResNet epoch:48 bit:8 dataset:imagenet MAP:0.4532851794841932 Best MAP: 0.4532851794841932
+2024-03-06 11:27:27,192 - root - INFO - ResNet epoch:56 bit:8 dataset:imagenet MAP:0.455758155338699 Best MAP: 0.455758155338699
+2024-03-06 11:35:23,494 - root - INFO - ResNet epoch:64 bit:8 dataset:imagenet MAP:0.4536753348376602 Best MAP: 0.455758155338699
+2024-03-06 11:43:28,463 - root - INFO - ResNet epoch:72 bit:8 dataset:imagenet MAP:0.4532676128261257 Best MAP: 0.455758155338699
+2024-03-06 11:43:46,248 - root - INFO - ResNet epoch:8 bit:8 dataset:imagenet MAP:0.4317999416660285 Best MAP: 0.4317999416660285
+2024-03-06 11:49:57,039 - root - INFO - ResNet epoch:16 bit:8 dataset:imagenet MAP:0.4418597097421996 Best MAP: 0.4418597097421996
+2024-03-06 11:51:38,070 - root - INFO - ResNet epoch:80 bit:8 dataset:imagenet MAP:0.4555548966271803 Best MAP: 0.455758155338699
+2024-03-06 11:56:11,605 - root - INFO - ResNet epoch:24 bit:8 dataset:imagenet MAP:0.4407605790336616 Best MAP: 0.4418597097421996
+2024-03-06 11:59:52,537 - root - INFO - ResNet epoch:88 bit:8 dataset:imagenet MAP:0.4519224015899701 Best MAP: 0.455758155338699
+2024-03-06 12:02:24,650 - root - INFO - ResNet epoch:32 bit:8 dataset:imagenet MAP:0.4460113829707727 Best MAP: 0.4460113829707727
+2024-03-06 12:08:07,885 - root - INFO - ResNet epoch:96 bit:8 dataset:imagenet MAP:0.45196053779618817 Best MAP: 0.455758155338699
+2024-03-06 12:08:40,090 - root - INFO - ResNet epoch:40 bit:8 dataset:imagenet MAP:0.44830958263622595 Best MAP: 0.44830958263622595
+2024-03-06 12:14:55,157 - root - INFO - ResNet epoch:48 bit:8 dataset:imagenet MAP:0.44843029156560077 Best MAP: 0.44843029156560077
+2024-03-06 12:16:26,075 - root - INFO - ResNet epoch:104 bit:8 dataset:imagenet MAP:0.45519186391874683 Best MAP: 0.455758155338699
+2024-03-06 12:16:45,074 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-06 12:16:55,648 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-06 12:17:06,235 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-06 12:17:28,330 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-06 12:17:38,846 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-06 12:17:49,337 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-06 12:21:10,608 - root - INFO - ResNet epoch:56 bit:8 dataset:imagenet MAP:0.4457984221303137 Best MAP: 0.44843029156560077
+2024-03-06 12:25:21,487 - root - INFO - ResNet epoch:8 bit:16 dataset:imagenet MAP:0.8202569307339145 Best MAP: 0.8202569307339145
+2024-03-06 12:27:24,563 - root - INFO - ResNet epoch:64 bit:8 dataset:imagenet MAP:0.4493208648161031 Best MAP: 0.4493208648161031
+2024-03-06 12:33:37,203 - root - INFO - ResNet epoch:72 bit:8 dataset:imagenet MAP:0.4482997030131752 Best MAP: 0.4493208648161031
+2024-03-06 12:33:37,296 - root - INFO - ResNet epoch:16 bit:16 dataset:imagenet MAP:0.8360088406543946 Best MAP: 0.8360088406543946
+2024-03-06 12:39:48,477 - root - INFO - ResNet epoch:80 bit:8 dataset:imagenet MAP:0.4471794858323876 Best MAP: 0.4493208648161031
+2024-03-06 12:41:45,797 - root - INFO - ResNet epoch:24 bit:16 dataset:imagenet MAP:0.8369939865821506 Best MAP: 0.8369939865821506
+2024-03-06 12:46:01,195 - root - INFO - ResNet epoch:88 bit:8 dataset:imagenet MAP:0.44085057577555997 Best MAP: 0.4493208648161031
+2024-03-06 12:49:54,096 - root - INFO - ResNet epoch:32 bit:16 dataset:imagenet MAP:0.8388835985269165 Best MAP: 0.8388835985269165
+2024-03-06 12:52:13,890 - root - INFO - ResNet epoch:96 bit:8 dataset:imagenet MAP:0.4456713490311056 Best MAP: 0.4493208648161031
+2024-03-06 12:58:10,524 - root - INFO - ResNet epoch:40 bit:16 dataset:imagenet MAP:0.8392787528587272 Best MAP: 0.8392787528587272
+2024-03-06 12:58:28,604 - root - INFO - ResNet epoch:104 bit:8 dataset:imagenet MAP:0.44926989060693884 Best MAP: 0.4493208648161031
+2024-03-06 13:04:42,113 - root - INFO - ResNet epoch:112 bit:8 dataset:imagenet MAP:0.44625161054716445 Best MAP: 0.4493208648161031
+2024-03-06 13:05:00,776 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-06 13:05:11,239 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-06 13:06:28,484 - root - INFO - ResNet epoch:48 bit:16 dataset:imagenet MAP:0.8372178154966561 Best MAP: 0.8392787528587272
+2024-03-06 13:11:23,411 - root - INFO - ResNet epoch:8 bit:16 dataset:imagenet MAP:0.8227636853384087 Best MAP: 0.8227636853384087
+2024-03-06 13:14:52,498 - root - INFO - ResNet epoch:56 bit:16 dataset:imagenet MAP:0.8361470871724886 Best MAP: 0.8392787528587272
+2024-03-06 13:17:35,504 - root - INFO - ResNet epoch:16 bit:16 dataset:imagenet MAP:0.8385284991635475 Best MAP: 0.8385284991635475
+2024-03-06 13:22:18,552 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-06 13:22:28,992 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-06 13:22:39,434 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-06 13:22:58,269 - root - INFO - ResNet epoch:64 bit:16 dataset:imagenet MAP:0.8334626494061668 Best MAP: 0.8392787528587272
+2024-03-06 13:23:47,646 - root - INFO - ResNet epoch:24 bit:16 dataset:imagenet MAP:0.8395194355411222 Best MAP: 0.8395194355411222
+2024-03-06 13:30:00,771 - root - INFO - ResNet epoch:32 bit:16 dataset:imagenet MAP:0.8374779559300747 Best MAP: 0.8395194355411222
+                                                                                                                                    2024-03-06 13:36:12,963 - root - INFO - ResNet epoch:40 bit:16 dataset:imagenet MAP:0.8377797732208156 Best MAP: 0.8395194355411222
+                                                                                                                                    2024-03-06 13:42:28,055 - root - INFO - ResNet epoch:48 bit:16 dataset:imagenet MAP:0.8360116423077416 Best MAP: 0.8395194355411222
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        2024-03-06 13:48:40,927 - root - INFO - ResNet epoch:56 bit:16 dataset:imagenet MAP:0.8332869972373824 Best MAP: 0.8395194355411222
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  2024-03-06 13:54:56,811 - root - INFO - ResNet epoch:64 bit:16 dataset:imagenet MAP:0.8356895511706826 Best MAP: 0.8395194355411222
+                                                                                                                                   2024-03-06 14:01:07,560 - root - INFO - ResNet epoch:72 bit:16 dataset:imagenet MAP:0.8334123717812123 Best MAP: 0.8395194355411222
+2024-03-06 14:02:06,761 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-06 14:02:17,162 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-06 14:02:28,325 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-06 14:02:54,332 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-06 14:03:06,239 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-06 14:03:17,690 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+                                                                                                                                    2024-03-06 14:08:54,890 - root - INFO - ResNet epoch:8 bit:32 dataset:imagenet MAP:0.8587354423298268 Best MAP: 0.8587354423298268
+                                                                                                                                    2024-03-06 14:15:06,828 - root - INFO - ResNet epoch:16 bit:32 dataset:imagenet MAP:0.8704263227286283 Best MAP: 0.8704263227286283
+2024-03-06 14:21:16,946 - root - INFO - ResNet epoch:24 bit:32 dataset:imagenet MAP:0.8674499733586329 Best MAP: 0.8704263227286283
+                                                                                                                                    2024-03-06 14:27:28,404 - root - INFO - ResNet epoch:32 bit:32 dataset:imagenet MAP:0.8684458693880355 Best MAP: 0.8704263227286283
+                                                                                                                                    2024-03-06 14:33:39,061 - root - INFO - ResNet epoch:40 bit:32 dataset:imagenet MAP:0.8660003231065347 Best MAP: 0.8704263227286283
+                                                                                                                                    2024-03-06 14:39:50,688 - root - INFO - ResNet epoch:48 bit:32 dataset:imagenet MAP:0.8650943593223114 Best MAP: 0.8704263227286283
+2024-03-06 14:46:02,744 - root - INFO - ResNet epoch:56 bit:32 dataset:imagenet MAP:0.863819181491714 Best MAP: 0.8704263227286283
+                                                                                                                                    2024-03-06 14:52:21,864 - root - INFO - ResNet epoch:64 bit:32 dataset:imagenet MAP:0.8623304770477582 Best MAP: 0.8704263227286283
+2024-03-06 14:52:40,262 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-06 14:52:50,731 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-06 14:53:01,137 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-06 14:53:21,999 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-06 14:53:32,438 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-06 14:53:42,935 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-06 14:55:13,832 - root - INFO - ResNet epoch:64 bit:32 dataset:imagenet MAP:0.8609780422072392 Best MAP: 0.8690587570588802
+2024-03-06 14:55:36,912 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-06 14:55:47,309 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-06 14:55:57,735 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-06 14:56:18,576 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-06 14:56:28,985 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-06 14:56:39,401 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-06 14:59:06,475 - root - INFO - ResNet epoch:8 bit:64 dataset:imagenet MAP:0.8703173435422126 Best MAP: 0.8703173435422126
+2024-03-06 15:05:32,320 - root - INFO - ResNet epoch:16 bit:64 dataset:imagenet MAP:0.8800711050239158 Best MAP: 0.8800711050239158
+2024-03-06 15:06:18,952 - root - INFO - ResNet epoch:8 bit:64 dataset:imagenet MAP:0.8677523499459494 Best MAP: 0.8677523499459494
+2024-03-06 15:11:55,789 - root - INFO - ResNet epoch:24 bit:64 dataset:imagenet MAP:0.8739356599000981 Best MAP: 0.8800711050239158
+2024-03-06 15:16:35,227 - root - INFO - ResNet epoch:16 bit:64 dataset:imagenet MAP:0.8798497272270964 Best MAP: 0.8798497272270964
+2024-03-06 15:18:23,308 - root - INFO - ResNet epoch:32 bit:64 dataset:imagenet MAP:0.8727470566652482 Best MAP: 0.8800711050239158
+2024-03-06 15:24:54,511 - root - INFO - ResNet epoch:40 bit:64 dataset:imagenet MAP:0.8709992323463782 Best MAP: 0.8800711050239158
+2024-03-06 15:26:57,060 - root - INFO - ResNet epoch:24 bit:64 dataset:imagenet MAP:0.879136096447846 Best MAP: 0.8798497272270964
+2024-03-06 15:31:21,272 - root - INFO - ResNet epoch:48 bit:64 dataset:imagenet MAP:0.8672426098074997 Best MAP: 0.8800711050239158
+2024-03-06 15:36:05,582 - root - INFO - ResNet epoch:32 bit:64 dataset:imagenet MAP:0.8727471862640465 Best MAP: 0.8798497272270964
+2024-03-06 15:38:05,653 - root - INFO - ResNet epoch:56 bit:64 dataset:imagenet MAP:0.8642799654737114 Best MAP: 0.8800711050239158
+2024-03-06 15:44:58,357 - root - INFO - ResNet epoch:64 bit:64 dataset:imagenet MAP:0.8659494468972553 Best MAP: 0.8800711050239158
+2024-03-06 15:45:15,820 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-06 15:45:26,209 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-06 15:45:36,675 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-06 15:45:57,552 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-06 15:46:07,945 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-06 15:46:18,310 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-06 15:54:19,920 - root - INFO - ResNet epoch:48 bit:64 dataset:imagenet MAP:0.8673342930760933 Best MAP: 0.8798497272270964
+2024-03-06 15:57:44,977 - root - INFO - ResNet epoch:8 bit:128 dataset:imagenet MAP:0.8665094352802029 Best MAP: 0.8665094352802029
+2024-03-06 16:04:16,045 - root - INFO - ResNet epoch:56 bit:64 dataset:imagenet MAP:0.863839695605589 Best MAP: 0.8798497272270964
+2024-03-06 16:08:41,597 - root - INFO - ResNet epoch:16 bit:128 dataset:imagenet MAP:0.8799900817823131 Best MAP: 0.8799900817823131
+2024-03-06 16:13:31,976 - root - INFO - ResNet epoch:64 bit:64 dataset:imagenet MAP:0.8563578498836374 Best MAP: 0.8798497272270964
+2024-03-06 16:13:52,964 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-06 16:14:03,379 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-06 16:14:13,814 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-06 16:14:34,728 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-06 16:14:45,166 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-06 16:14:55,560 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-06 16:19:19,354 - root - INFO - ResNet epoch:24 bit:128 dataset:imagenet MAP:0.8800226227411535 Best MAP: 0.8800226227411535
+2024-03-06 16:22:53,253 - root - INFO - ResNet epoch:8 bit:128 dataset:imagenet MAP:0.865955540126469 Best MAP: 0.865955540126469
+2024-03-06 16:30:25,528 - root - INFO - ResNet epoch:32 bit:128 dataset:imagenet MAP:0.8735746778940316 Best MAP: 0.8800226227411535
+2024-03-06 16:31:38,064 - root - INFO - ResNet epoch:16 bit:128 dataset:imagenet MAP:0.8771756666622125 Best MAP: 0.8771756666622125
+2024-03-06 16:40:00,742 - root - INFO - ResNet epoch:24 bit:128 dataset:imagenet MAP:0.877760627117753 Best MAP: 0.877760627117753
+2024-03-06 16:41:12,999 - root - INFO - ResNet epoch:40 bit:128 dataset:imagenet MAP:0.8698543409336358 Best MAP: 0.8800226227411535
+2024-03-06 16:48:26,121 - root - INFO - ResNet epoch:32 bit:128 dataset:imagenet MAP:0.8700501113829668 Best MAP: 0.877760627117753
+2024-03-06 16:52:00,850 - root - INFO - ResNet epoch:48 bit:128 dataset:imagenet MAP:0.8671975462970324 Best MAP: 0.8800226227411535
+2024-03-06 16:56:52,584 - root - INFO - ResNet epoch:40 bit:128 dataset:imagenet MAP:0.867649004448601 Best MAP: 0.877760627117753
+2024-03-06 17:02:40,084 - root - INFO - ResNet epoch:56 bit:128 dataset:imagenet MAP:0.8688255382835866 Best MAP: 0.8800226227411535
+2024-03-06 17:08:15,699 - root - INFO - ResNet epoch:48 bit:128 dataset:imagenet MAP:0.8626761712144595 Best MAP: 0.877760627117753
+2024-03-06 17:13:45,328 - root - INFO - ResNet epoch:64 bit:128 dataset:imagenet MAP:0.8631423746942077 Best MAP: 0.8800226227411535
+2024-03-06 17:17:32,796 - root - INFO - ResNet epoch:56 bit:128 dataset:imagenet MAP:0.8641876251091483 Best MAP: 0.877760627117753
+2024-03-06 17:24:41,037 - root - INFO - ResNet epoch:72 bit:128 dataset:imagenet MAP:0.859555908531486 Best MAP: 0.8800226227411535
+2024-03-06 17:24:58,878 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-06 17:25:09,279 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-06 17:25:19,689 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-06 17:25:40,509 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-06 17:25:50,956 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-06 17:26:01,671 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-06 17:26:51,648 - root - INFO - ResNet epoch:64 bit:128 dataset:imagenet MAP:0.8616207864050753 Best MAP: 0.877760627117753
+2024-03-06 17:33:37,041 - root - INFO - ResNet epoch:8 bit:256 dataset:imagenet MAP:0.862145558178937 Best MAP: 0.862145558178937
+2024-03-06 17:36:14,803 - root - INFO - ResNet epoch:72 bit:128 dataset:imagenet MAP:0.8607384752065409 Best MAP: 0.877760627117753
+2024-03-06 17:36:35,326 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-06 17:36:45,735 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-06 17:36:56,192 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-06 17:37:17,042 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-06 17:37:27,459 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-06 17:37:37,841 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-06 17:40:32,717 - root - INFO - ResNet epoch:16 bit:256 dataset:imagenet MAP:0.8829773166153579 Best MAP: 0.8829773166153579
+2024-03-06 17:46:00,030 - root - INFO - ResNet epoch:8 bit:256 dataset:imagenet MAP:0.8585381401876221 Best MAP: 0.8585381401876221
+2024-03-06 17:47:21,201 - root - INFO - ResNet epoch:24 bit:256 dataset:imagenet MAP:0.8789302891124505 Best MAP: 0.8829773166153579
+2024-03-06 17:54:12,477 - root - INFO - ResNet epoch:32 bit:256 dataset:imagenet MAP:0.874626767040696 Best MAP: 0.8829773166153579
+2024-03-06 17:55:24,200 - root - INFO - ResNet epoch:16 bit:256 dataset:imagenet MAP:0.879427250950574 Best MAP: 0.879427250950574
+2024-03-06 18:00:31,106 - root - INFO - ResNet epoch:40 bit:256 dataset:imagenet MAP:0.8701810016589472 Best MAP: 0.8829773166153579
+2024-03-06 18:04:39,672 - root - INFO - ResNet epoch:24 bit:256 dataset:imagenet MAP:0.875164427428646 Best MAP: 0.879427250950574
+2024-03-06 18:07:06,193 - root - INFO - ResNet epoch:48 bit:256 dataset:imagenet MAP:0.8670606759461341 Best MAP: 0.8829773166153579
+2024-03-06 18:13:25,833 - root - INFO - ResNet epoch:56 bit:256 dataset:imagenet MAP:0.8636696114327292 Best MAP: 0.8829773166153579
+2024-03-06 18:13:54,492 - root - INFO - ResNet epoch:32 bit:256 dataset:imagenet MAP:0.8711777609887067 Best MAP: 0.879427250950574
+2024-03-06 18:19:48,624 - root - INFO - ResNet epoch:64 bit:256 dataset:imagenet MAP:0.8616724802965764 Best MAP: 0.8829773166153579
+2024-03-06 18:23:12,993 - root - INFO - ResNet epoch:40 bit:256 dataset:imagenet MAP:0.8701055523811607 Best MAP: 0.879427250950574
+2024-03-06 18:32:19,496 - root - INFO - ResNet epoch:48 bit:256 dataset:imagenet MAP:0.8651652027243981 Best MAP: 0.879427250950574
+2024-03-06 18:41:33,144 - root - INFO - ResNet epoch:56 bit:256 dataset:imagenet MAP:0.8609215945768636 Best MAP: 0.879427250950574
+2024-03-06 18:49:58,756 - root - INFO - ResNet epoch:64 bit:256 dataset:imagenet MAP:0.857089363444224 Best MAP: 0.879427250950574
+2024-03-08 12:51:28,783 - root - INFO - ResNet epoch:8 bit:8 dataset:imagenet MAP:0.43756397274245973 Best MAP: 0.43756397274245973
+2024-03-08 12:58:43,628 - root - INFO - ResNet epoch:16 bit:8 dataset:imagenet MAP:0.4518811892929487 Best MAP: 0.4518811892929487
+2024-03-08 13:05:53,334 - root - INFO - ResNet epoch:24 bit:8 dataset:imagenet MAP:0.4523096679566661 Best MAP: 0.4523096679566661
+2024-03-08 13:13:21,875 - root - INFO - ResNet epoch:32 bit:8 dataset:imagenet MAP:0.45204158325223254 Best MAP: 0.4523096679566661
+2024-03-08 13:20:35,990 - root - INFO - ResNet epoch:40 bit:8 dataset:imagenet MAP:0.45583628594041803 Best MAP: 0.45583628594041803
+2024-03-08 13:28:07,983 - root - INFO - ResNet epoch:48 bit:8 dataset:imagenet MAP:0.4543682872484438 Best MAP: 0.45583628594041803
+2024-03-08 13:35:34,808 - root - INFO - ResNet epoch:56 bit:8 dataset:imagenet MAP:0.4548813522441313 Best MAP: 0.45583628594041803
+2024-03-08 13:42:46,944 - root - INFO - ResNet epoch:64 bit:8 dataset:imagenet MAP:0.45374667561131066 Best MAP: 0.45583628594041803
+2024-03-08 13:49:58,682 - root - INFO - ResNet epoch:72 bit:8 dataset:imagenet MAP:0.4563825009629829 Best MAP: 0.4563825009629829
+2024-03-08 13:57:10,542 - root - INFO - ResNet epoch:80 bit:8 dataset:imagenet MAP:0.45542691242822914 Best MAP: 0.4563825009629829
+2024-03-08 14:04:22,253 - root - INFO - ResNet epoch:88 bit:8 dataset:imagenet MAP:0.4546049835134065 Best MAP: 0.4563825009629829
+2024-03-08 14:11:44,500 - root - INFO - ResNet epoch:96 bit:8 dataset:imagenet MAP:0.45561408258711455 Best MAP: 0.4563825009629829
+2024-03-08 14:18:58,015 - root - INFO - ResNet epoch:104 bit:8 dataset:imagenet MAP:0.45449620606082025 Best MAP: 0.4563825009629829
+2024-03-08 14:26:32,036 - root - INFO - ResNet epoch:112 bit:8 dataset:imagenet MAP:0.4537250452345703 Best MAP: 0.4563825009629829
+2024-03-08 14:33:46,806 - root - INFO - ResNet epoch:120 bit:8 dataset:imagenet MAP:0.45554103387715295 Best MAP: 0.4563825009629829
+2024-03-08 14:34:05,234 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-08 14:34:15,634 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-08 14:34:26,021 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-08 14:34:47,885 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-08 14:34:58,268 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-08 14:35:08,789 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-08 14:41:44,459 - root - INFO - ResNet epoch:8 bit:16 dataset:imagenet MAP:0.819153081381903 Best MAP: 0.819153081381903
+2024-03-08 14:48:59,363 - root - INFO - ResNet epoch:16 bit:16 dataset:imagenet MAP:0.8324986641143681 Best MAP: 0.8324986641143681
+2024-03-08 14:56:14,566 - root - INFO - ResNet epoch:24 bit:16 dataset:imagenet MAP:0.8325628867611755 Best MAP: 0.8325628867611755
+2024-03-08 15:03:31,081 - root - INFO - ResNet epoch:32 bit:16 dataset:imagenet MAP:0.832774926245655 Best MAP: 0.832774926245655
+2024-03-08 15:10:47,865 - root - INFO - ResNet epoch:40 bit:16 dataset:imagenet MAP:0.836217747308989 Best MAP: 0.836217747308989
+2024-03-08 15:18:03,742 - root - INFO - ResNet epoch:48 bit:16 dataset:imagenet MAP:0.8323522658159258 Best MAP: 0.836217747308989
+2024-03-08 15:25:17,143 - root - INFO - ResNet epoch:56 bit:16 dataset:imagenet MAP:0.8347883918906562 Best MAP: 0.836217747308989
+2024-03-08 15:32:29,446 - root - INFO - ResNet epoch:64 bit:16 dataset:imagenet MAP:0.8338722964047455 Best MAP: 0.836217747308989
+2024-03-08 15:39:46,965 - root - INFO - ResNet epoch:72 bit:16 dataset:imagenet MAP:0.832387812100607 Best MAP: 0.836217747308989
+2024-03-08 15:47:05,636 - root - INFO - ResNet epoch:80 bit:16 dataset:imagenet MAP:0.8345178667627741 Best MAP: 0.836217747308989

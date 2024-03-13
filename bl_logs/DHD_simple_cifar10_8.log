@@ -1,0 +1,278 @@
+2024-03-07 15:23:47,898 - root - INFO - ResNet epoch:4 bit:8 dataset:cifar10 MAP:0.2757665094695985 Best MAP: 0.2757665094695985
+2024-03-07 15:26:55,953 - root - INFO - ResNet epoch:8 bit:8 dataset:cifar10 MAP:0.40639429750293493 Best MAP: 0.40639429750293493
+2024-03-07 23:06:25,803 - root - INFO - ResNet epoch:4 bit:8 dataset:cifar10 MAP:0.27227852496504784 Best MAP: 0.27227852496504784
+2024-03-07 23:08:40,156 - root - INFO - ResNet epoch:8 bit:8 dataset:cifar10 MAP:0.38324455178529027 Best MAP: 0.38324455178529027
+2024-03-07 23:10:54,104 - root - INFO - ResNet epoch:12 bit:8 dataset:cifar10 MAP:0.474303206872195 Best MAP: 0.474303206872195
+2024-03-07 23:13:07,037 - root - INFO - ResNet epoch:16 bit:8 dataset:cifar10 MAP:0.5186936860978604 Best MAP: 0.5186936860978604
+2024-03-07 23:15:21,050 - root - INFO - ResNet epoch:20 bit:8 dataset:cifar10 MAP:0.5446993364281952 Best MAP: 0.5446993364281952
+2024-03-07 23:17:34,209 - root - INFO - ResNet epoch:24 bit:8 dataset:cifar10 MAP:0.5629620263688266 Best MAP: 0.5629620263688266
+2024-03-07 23:19:49,095 - root - INFO - ResNet epoch:28 bit:8 dataset:cifar10 MAP:0.5881791457086801 Best MAP: 0.5881791457086801
+2024-03-07 23:22:03,143 - root - INFO - ResNet epoch:32 bit:8 dataset:cifar10 MAP:0.6071474849991501 Best MAP: 0.6071474849991501
+2024-03-07 23:24:17,552 - root - INFO - ResNet epoch:36 bit:8 dataset:cifar10 MAP:0.6113755141720175 Best MAP: 0.6113755141720175
+2024-03-07 23:26:32,763 - root - INFO - ResNet epoch:40 bit:8 dataset:cifar10 MAP:0.6310656763389707 Best MAP: 0.6310656763389707
+2024-03-07 23:28:49,248 - root - INFO - ResNet epoch:44 bit:8 dataset:cifar10 MAP:0.6112369318678975 Best MAP: 0.6310656763389707
+2024-03-07 23:31:04,182 - root - INFO - ResNet epoch:48 bit:8 dataset:cifar10 MAP:0.6228368965387344 Best MAP: 0.6310656763389707
+2024-03-07 23:33:17,969 - root - INFO - ResNet epoch:52 bit:8 dataset:cifar10 MAP:0.6277235839404166 Best MAP: 0.6310656763389707
+2024-03-07 23:35:30,916 - root - INFO - ResNet epoch:56 bit:8 dataset:cifar10 MAP:0.6444149639941752 Best MAP: 0.6444149639941752
+2024-03-07 23:37:44,104 - root - INFO - ResNet epoch:60 bit:8 dataset:cifar10 MAP:0.6477763219550252 Best MAP: 0.6477763219550252
+2024-03-07 23:39:58,103 - root - INFO - ResNet epoch:64 bit:8 dataset:cifar10 MAP:0.6325227431990206 Best MAP: 0.6477763219550252
+2024-03-07 23:42:11,548 - root - INFO - ResNet epoch:68 bit:8 dataset:cifar10 MAP:0.6359613264352083 Best MAP: 0.6477763219550252
+2024-03-07 23:44:26,438 - root - INFO - ResNet epoch:72 bit:8 dataset:cifar10 MAP:0.6464797414131462 Best MAP: 0.6477763219550252
+2024-03-07 23:46:40,586 - root - INFO - ResNet epoch:76 bit:8 dataset:cifar10 MAP:0.6407193423248827 Best MAP: 0.6477763219550252
+2024-03-07 23:48:55,281 - root - INFO - ResNet epoch:80 bit:8 dataset:cifar10 MAP:0.6513683833368122 Best MAP: 0.6513683833368122
+2024-03-07 23:51:09,882 - root - INFO - ResNet epoch:84 bit:8 dataset:cifar10 MAP:0.6593240996338428 Best MAP: 0.6593240996338428
+2024-03-07 23:53:24,342 - root - INFO - ResNet epoch:88 bit:8 dataset:cifar10 MAP:0.6445692309141159 Best MAP: 0.6593240996338428
+2024-03-07 23:55:37,930 - root - INFO - ResNet epoch:92 bit:8 dataset:cifar10 MAP:0.6415255244784057 Best MAP: 0.6593240996338428
+2024-03-07 23:57:51,135 - root - INFO - ResNet epoch:96 bit:8 dataset:cifar10 MAP:0.6558079847358167 Best MAP: 0.6593240996338428
+2024-03-08 00:00:05,806 - root - INFO - ResNet epoch:100 bit:8 dataset:cifar10 MAP:0.6711952773667872 Best MAP: 0.6711952773667872
+2024-03-08 00:02:19,798 - root - INFO - ResNet epoch:104 bit:8 dataset:cifar10 MAP:0.6612102520354092 Best MAP: 0.6711952773667872
+2024-03-08 00:04:33,858 - root - INFO - ResNet epoch:108 bit:8 dataset:cifar10 MAP:0.6675240327492357 Best MAP: 0.6711952773667872
+2024-03-08 00:06:50,419 - root - INFO - ResNet epoch:112 bit:8 dataset:cifar10 MAP:0.6739377126954496 Best MAP: 0.6739377126954496
+2024-03-08 00:09:04,415 - root - INFO - ResNet epoch:116 bit:8 dataset:cifar10 MAP:0.6744209325611591 Best MAP: 0.6744209325611591
+2024-03-08 00:11:18,882 - root - INFO - ResNet epoch:120 bit:8 dataset:cifar10 MAP:0.6698925657793879 Best MAP: 0.6744209325611591
+2024-03-08 00:13:32,587 - root - INFO - ResNet epoch:124 bit:8 dataset:cifar10 MAP:0.6668324198462069 Best MAP: 0.6744209325611591
+2024-03-08 00:15:45,979 - root - INFO - ResNet epoch:128 bit:8 dataset:cifar10 MAP:0.6793525942899287 Best MAP: 0.6793525942899287
+2024-03-08 00:18:00,455 - root - INFO - ResNet epoch:132 bit:8 dataset:cifar10 MAP:0.6787127353735268 Best MAP: 0.6793525942899287
+2024-03-08 00:20:16,987 - root - INFO - ResNet epoch:136 bit:8 dataset:cifar10 MAP:0.6540984570458531 Best MAP: 0.6793525942899287
+2024-03-08 00:22:29,982 - root - INFO - ResNet epoch:140 bit:8 dataset:cifar10 MAP:0.6634828962609172 Best MAP: 0.6793525942899287
+2024-03-08 00:24:44,928 - root - INFO - ResNet epoch:144 bit:8 dataset:cifar10 MAP:0.661289234098047 Best MAP: 0.6793525942899287
+2024-03-08 00:26:57,544 - root - INFO - ResNet epoch:148 bit:8 dataset:cifar10 MAP:0.6684324164651334 Best MAP: 0.6793525942899287
+2024-03-08 00:29:11,257 - root - INFO - ResNet epoch:152 bit:8 dataset:cifar10 MAP:0.6856661704741418 Best MAP: 0.6856661704741418
+2024-03-08 00:31:26,680 - root - INFO - ResNet epoch:156 bit:8 dataset:cifar10 MAP:0.6674050520472229 Best MAP: 0.6856661704741418
+2024-03-08 00:33:40,013 - root - INFO - ResNet epoch:160 bit:8 dataset:cifar10 MAP:0.6723607978597284 Best MAP: 0.6856661704741418
+2024-03-08 00:35:53,256 - root - INFO - ResNet epoch:164 bit:8 dataset:cifar10 MAP:0.6913304819054902 Best MAP: 0.6913304819054902
+2024-03-08 00:38:08,439 - root - INFO - ResNet epoch:168 bit:8 dataset:cifar10 MAP:0.6770994913764298 Best MAP: 0.6913304819054902
+2024-03-08 00:40:22,476 - root - INFO - ResNet epoch:172 bit:8 dataset:cifar10 MAP:0.6624165386669337 Best MAP: 0.6913304819054902
+2024-03-08 00:42:37,360 - root - INFO - ResNet epoch:176 bit:8 dataset:cifar10 MAP:0.6781763815097511 Best MAP: 0.6913304819054902
+2024-03-08 00:44:51,285 - root - INFO - ResNet epoch:180 bit:8 dataset:cifar10 MAP:0.6890032438188791 Best MAP: 0.6913304819054902
+2024-03-08 00:47:04,923 - root - INFO - ResNet epoch:184 bit:8 dataset:cifar10 MAP:0.6933191000707447 Best MAP: 0.6933191000707447
+2024-03-08 00:49:18,624 - root - INFO - ResNet epoch:188 bit:8 dataset:cifar10 MAP:0.6437480988651514 Best MAP: 0.6933191000707447
+2024-03-08 00:51:32,625 - root - INFO - ResNet epoch:192 bit:8 dataset:cifar10 MAP:0.6939221221916377 Best MAP: 0.6939221221916377
+2024-03-08 00:53:46,049 - root - INFO - ResNet epoch:196 bit:8 dataset:cifar10 MAP:0.6795966903492808 Best MAP: 0.6939221221916377
+2024-03-08 00:55:59,555 - root - INFO - ResNet epoch:200 bit:8 dataset:cifar10 MAP:0.6747156144306063 Best MAP: 0.6939221221916377
+2024-03-08 00:58:12,940 - root - INFO - ResNet epoch:204 bit:8 dataset:cifar10 MAP:0.6816715432219207 Best MAP: 0.6939221221916377
+2024-03-08 01:00:27,641 - root - INFO - ResNet epoch:208 bit:8 dataset:cifar10 MAP:0.6836741310320794 Best MAP: 0.6939221221916377
+2024-03-08 01:02:40,653 - root - INFO - ResNet epoch:212 bit:8 dataset:cifar10 MAP:0.67745340558514 Best MAP: 0.6939221221916377
+2024-03-08 01:04:53,994 - root - INFO - ResNet epoch:216 bit:8 dataset:cifar10 MAP:0.6650627651326358 Best MAP: 0.6939221221916377
+2024-03-08 01:05:13,039 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-08 01:05:23,438 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-08 01:05:33,850 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-08 01:05:57,746 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-08 01:06:08,138 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-08 01:06:18,533 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-08 01:07:27,904 - root - INFO - ResNet epoch:4 bit:16 dataset:cifar10 MAP:0.3468657935038209 Best MAP: 0.3468657935038209
+2024-03-08 01:09:42,727 - root - INFO - ResNet epoch:8 bit:16 dataset:cifar10 MAP:0.5052106932736933 Best MAP: 0.5052106932736933
+2024-03-08 01:11:56,668 - root - INFO - ResNet epoch:12 bit:16 dataset:cifar10 MAP:0.5953822341710329 Best MAP: 0.5953822341710329
+2024-03-08 01:14:14,175 - root - INFO - ResNet epoch:16 bit:16 dataset:cifar10 MAP:0.6353073974400759 Best MAP: 0.6353073974400759
+2024-03-08 01:16:28,377 - root - INFO - ResNet epoch:20 bit:16 dataset:cifar10 MAP:0.6714661931879818 Best MAP: 0.6714661931879818
+2024-03-08 01:18:42,923 - root - INFO - ResNet epoch:24 bit:16 dataset:cifar10 MAP:0.6937471493445336 Best MAP: 0.6937471493445336
+2024-03-08 01:20:58,553 - root - INFO - ResNet epoch:28 bit:16 dataset:cifar10 MAP:0.6872625345624983 Best MAP: 0.6937471493445336
+2024-03-08 01:23:13,252 - root - INFO - ResNet epoch:32 bit:16 dataset:cifar10 MAP:0.7081451163813471 Best MAP: 0.7081451163813471
+2024-03-08 01:25:26,567 - root - INFO - ResNet epoch:36 bit:16 dataset:cifar10 MAP:0.7237104565687478 Best MAP: 0.7237104565687478
+2024-03-08 01:27:42,360 - root - INFO - ResNet epoch:40 bit:16 dataset:cifar10 MAP:0.7307155434042215 Best MAP: 0.7307155434042215
+2024-03-08 01:29:55,981 - root - INFO - ResNet epoch:44 bit:16 dataset:cifar10 MAP:0.7435983382314444 Best MAP: 0.7435983382314444
+2024-03-08 01:32:12,350 - root - INFO - ResNet epoch:48 bit:16 dataset:cifar10 MAP:0.7351329710520804 Best MAP: 0.7435983382314444
+2024-03-08 01:34:27,276 - root - INFO - ResNet epoch:52 bit:16 dataset:cifar10 MAP:0.7337082767710089 Best MAP: 0.7435983382314444
+2024-03-08 01:36:41,657 - root - INFO - ResNet epoch:56 bit:16 dataset:cifar10 MAP:0.7439171224832535 Best MAP: 0.7439171224832535
+2024-03-08 01:38:56,313 - root - INFO - ResNet epoch:60 bit:16 dataset:cifar10 MAP:0.7440679017938674 Best MAP: 0.7440679017938674
+2024-03-08 01:41:10,802 - root - INFO - ResNet epoch:64 bit:16 dataset:cifar10 MAP:0.747691322594881 Best MAP: 0.747691322594881
+2024-03-08 01:43:27,200 - root - INFO - ResNet epoch:68 bit:16 dataset:cifar10 MAP:0.7468187775835395 Best MAP: 0.747691322594881
+2024-03-08 01:45:40,901 - root - INFO - ResNet epoch:72 bit:16 dataset:cifar10 MAP:0.7493339760489762 Best MAP: 0.7493339760489762
+2024-03-08 01:47:56,181 - root - INFO - ResNet epoch:76 bit:16 dataset:cifar10 MAP:0.7570044807344675 Best MAP: 0.7570044807344675
+2024-03-08 01:50:12,311 - root - INFO - ResNet epoch:80 bit:16 dataset:cifar10 MAP:0.7550093242861331 Best MAP: 0.7570044807344675
+2024-03-08 01:52:26,144 - root - INFO - ResNet epoch:84 bit:16 dataset:cifar10 MAP:0.7672808867879212 Best MAP: 0.7672808867879212
+2024-03-08 01:54:39,204 - root - INFO - ResNet epoch:88 bit:16 dataset:cifar10 MAP:0.7406720311418176 Best MAP: 0.7672808867879212
+2024-03-08 01:56:56,047 - root - INFO - ResNet epoch:92 bit:16 dataset:cifar10 MAP:0.7482283504642546 Best MAP: 0.7672808867879212
+2024-03-08 01:59:08,550 - root - INFO - ResNet epoch:96 bit:16 dataset:cifar10 MAP:0.7568686605989933 Best MAP: 0.7672808867879212
+2024-03-08 02:01:24,497 - root - INFO - ResNet epoch:100 bit:16 dataset:cifar10 MAP:0.7537605545967817 Best MAP: 0.7672808867879212
+2024-03-08 02:03:40,106 - root - INFO - ResNet epoch:104 bit:16 dataset:cifar10 MAP:0.7623783739805221 Best MAP: 0.7672808867879212
+2024-03-08 02:05:55,816 - root - INFO - ResNet epoch:108 bit:16 dataset:cifar10 MAP:0.7451448538713157 Best MAP: 0.7672808867879212
+2024-03-08 02:06:14,431 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-08 02:06:24,874 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-08 02:06:35,259 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-08 02:06:56,115 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-08 02:07:06,505 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-08 02:07:16,911 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-08 02:08:31,433 - root - INFO - ResNet epoch:4 bit:32 dataset:cifar10 MAP:0.4469254478663206 Best MAP: 0.4469254478663206
+2024-03-08 02:10:45,891 - root - INFO - ResNet epoch:8 bit:32 dataset:cifar10 MAP:0.5785289451479911 Best MAP: 0.5785289451479911
+2024-03-08 02:13:00,432 - root - INFO - ResNet epoch:12 bit:32 dataset:cifar10 MAP:0.6665766125284135 Best MAP: 0.6665766125284135
+2024-03-08 02:15:15,774 - root - INFO - ResNet epoch:16 bit:32 dataset:cifar10 MAP:0.6966678866371513 Best MAP: 0.6966678866371513
+2024-03-08 02:17:28,551 - root - INFO - ResNet epoch:20 bit:32 dataset:cifar10 MAP:0.7196628422625363 Best MAP: 0.7196628422625363
+2024-03-08 02:19:42,696 - root - INFO - ResNet epoch:24 bit:32 dataset:cifar10 MAP:0.7100554079301655 Best MAP: 0.7196628422625363
+2024-03-08 02:21:57,445 - root - INFO - ResNet epoch:28 bit:32 dataset:cifar10 MAP:0.749247457228601 Best MAP: 0.749247457228601
+2024-03-08 02:24:13,214 - root - INFO - ResNet epoch:32 bit:32 dataset:cifar10 MAP:0.7646430346556008 Best MAP: 0.7646430346556008
+2024-03-08 02:26:28,671 - root - INFO - ResNet epoch:36 bit:32 dataset:cifar10 MAP:0.7626854779683053 Best MAP: 0.7646430346556008
+2024-03-08 02:28:41,328 - root - INFO - ResNet epoch:40 bit:32 dataset:cifar10 MAP:0.7747913625873625 Best MAP: 0.7747913625873625
+2024-03-08 02:30:56,569 - root - INFO - ResNet epoch:44 bit:32 dataset:cifar10 MAP:0.7754873631112278 Best MAP: 0.7754873631112278
+2024-03-08 02:33:11,602 - root - INFO - ResNet epoch:48 bit:32 dataset:cifar10 MAP:0.7619730238690973 Best MAP: 0.7754873631112278
+2024-03-08 02:35:27,684 - root - INFO - ResNet epoch:52 bit:32 dataset:cifar10 MAP:0.7751023376993835 Best MAP: 0.7754873631112278
+2024-03-08 02:37:40,191 - root - INFO - ResNet epoch:56 bit:32 dataset:cifar10 MAP:0.774036467332393 Best MAP: 0.7754873631112278
+2024-03-08 02:39:56,020 - root - INFO - ResNet epoch:60 bit:32 dataset:cifar10 MAP:0.7914926483891904 Best MAP: 0.7914926483891904
+2024-03-08 02:42:11,030 - root - INFO - ResNet epoch:64 bit:32 dataset:cifar10 MAP:0.7920029127709568 Best MAP: 0.7920029127709568
+2024-03-08 02:44:29,098 - root - INFO - ResNet epoch:68 bit:32 dataset:cifar10 MAP:0.7774349673986435 Best MAP: 0.7920029127709568
+2024-03-08 02:46:43,703 - root - INFO - ResNet epoch:72 bit:32 dataset:cifar10 MAP:0.7899757542796433 Best MAP: 0.7920029127709568
+2024-03-08 02:48:58,215 - root - INFO - ResNet epoch:76 bit:32 dataset:cifar10 MAP:0.8038683618232608 Best MAP: 0.8038683618232608
+2024-03-08 02:51:11,296 - root - INFO - ResNet epoch:80 bit:32 dataset:cifar10 MAP:0.798007772218436 Best MAP: 0.8038683618232608
+2024-03-08 02:53:26,463 - root - INFO - ResNet epoch:84 bit:32 dataset:cifar10 MAP:0.7965457679331303 Best MAP: 0.8038683618232608
+2024-03-08 02:55:39,579 - root - INFO - ResNet epoch:88 bit:32 dataset:cifar10 MAP:0.8010271630845964 Best MAP: 0.8038683618232608
+2024-03-08 02:57:53,186 - root - INFO - ResNet epoch:92 bit:32 dataset:cifar10 MAP:0.8160781671106815 Best MAP: 0.8160781671106815
+2024-03-08 03:00:06,153 - root - INFO - ResNet epoch:96 bit:32 dataset:cifar10 MAP:0.7905496590919793 Best MAP: 0.8160781671106815
+2024-03-08 03:02:19,668 - root - INFO - ResNet epoch:100 bit:32 dataset:cifar10 MAP:0.8121314444728196 Best MAP: 0.8160781671106815
+2024-03-08 03:04:35,387 - root - INFO - ResNet epoch:104 bit:32 dataset:cifar10 MAP:0.8041767115779221 Best MAP: 0.8160781671106815
+                                                                                                                                   2024-03-08 03:06:49,662 - root - INFO - ResNet epoch:108 bit:32 dataset:cifar10 MAP:0.8003978039398789 Best MAP: 0.8160781671106815
+2024-03-08 03:09:03,751 - root - INFO - ResNet epoch:112 bit:32 dataset:cifar10 MAP:0.8063958246037364 Best MAP: 0.8160781671106815
+                                                                                                                               2024-03-08 03:11:20,138 - root - INFO - ResNet epoch:116 bit:32 dataset:cifar10 MAP:0.7977291673310101 Best MAP: 0.8160781671106815
+2024-03-08 03:11:41,605 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-08 03:11:52,040 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-08 03:12:02,435 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-08 03:12:23,344 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-08 03:12:33,753 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-08 03:12:44,237 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-08 03:13:57,012 - root - INFO - ResNet epoch:4 bit:64 dataset:cifar10 MAP:0.5117902156375349 Best MAP: 0.5117902156375349
+                                                                                                                                  2024-03-08 03:16:10,455 - root - INFO - ResNet epoch:8 bit:64 dataset:cifar10 MAP:0.6931210848093032 Best MAP: 0.6931210848093032
+2024-03-08 03:18:23,693 - root - INFO - ResNet epoch:12 bit:64 dataset:cifar10 MAP:0.7241493351124227 Best MAP: 0.7241493351124227
+2024-03-08 03:20:36,780 - root - INFO - ResNet epoch:16 bit:64 dataset:cifar10 MAP:0.7579281243011355 Best MAP: 0.7579281243011355
+                                                                                                                                  2024-03-08 03:22:51,103 - root - INFO - ResNet epoch:20 bit:64 dataset:cifar10 MAP:0.76381358384341 Best MAP: 0.76381358384341
+2024-03-08 03:25:04,904 - root - INFO - ResNet epoch:24 bit:64 dataset:cifar10 MAP:0.7769729694612324 Best MAP: 0.7769729694612324
+                                                                                                                                  2024-03-08 03:27:19,329 - root - INFO - ResNet epoch:28 bit:64 dataset:cifar10 MAP:0.7925052829161287 Best MAP: 0.7925052829161287
+2024-03-08 03:29:36,019 - root - INFO - ResNet epoch:32 bit:64 dataset:cifar10 MAP:0.7865190811231733 Best MAP: 0.7925052829161287
+                                                                                                                                  2024-03-08 03:31:49,797 - root - INFO - ResNet epoch:36 bit:64 dataset:cifar10 MAP:0.7863365438729525 Best MAP: 0.7925052829161287
+2024-03-08 03:34:02,385 - root - INFO - ResNet epoch:40 bit:64 dataset:cifar10 MAP:0.8035198066197335 Best MAP: 0.8035198066197335
+                                                                                                                                  2024-03-08 03:36:16,547 - root - INFO - ResNet epoch:44 bit:64 dataset:cifar10 MAP:0.8051567471213639 Best MAP: 0.8051567471213639
+2024-03-08 03:38:30,298 - root - INFO - ResNet epoch:48 bit:64 dataset:cifar10 MAP:0.7984848719127476 Best MAP: 0.8051567471213639
+2024-03-08 03:40:43,625 - root - INFO - ResNet epoch:52 bit:64 dataset:cifar10 MAP:0.8160876152515412 Best MAP: 0.8160876152515412
+                                                                                                                                  2024-03-08 03:42:56,332 - root - INFO - ResNet epoch:56 bit:64 dataset:cifar10 MAP:0.8089753772802651 Best MAP: 0.8160876152515412
+2024-03-08 03:45:12,316 - root - INFO - ResNet epoch:60 bit:64 dataset:cifar10 MAP:0.8107114633582533 Best MAP: 0.8160876152515412
+                                                                                                                                2024-03-08 03:47:24,766 - root - INFO - ResNet epoch:64 bit:64 dataset:cifar10 MAP:0.8168049229905009 Best MAP: 0.8168049229905009
+2024-03-08 03:49:39,110 - root - INFO - ResNet epoch:68 bit:64 dataset:cifar10 MAP:0.8146371948942542 Best MAP: 0.8168049229905009
+                                                                                                                                  2024-03-08 03:51:51,783 - root - INFO - ResNet epoch:72 bit:64 dataset:cifar10 MAP:0.8218000562451779 Best MAP: 0.8218000562451779
+2024-03-08 03:54:05,287 - root - INFO - ResNet epoch:76 bit:64 dataset:cifar10 MAP:0.8086188461519778 Best MAP: 0.8218000562451779
+                                                                                                                                  2024-03-08 03:56:23,628 - root - INFO - ResNet epoch:80 bit:64 dataset:cifar10 MAP:0.8284175370559096 Best MAP: 0.8284175370559096
+2024-03-08 03:58:39,728 - root - INFO - ResNet epoch:84 bit:64 dataset:cifar10 MAP:0.8118694535456598 Best MAP: 0.8284175370559096
+2024-03-08 04:00:52,591 - root - INFO - ResNet epoch:88 bit:64 dataset:cifar10 MAP:0.8157845525443554 Best MAP: 0.8284175370559096
+                                                                                                                                  2024-03-08 04:03:05,996 - root - INFO - ResNet epoch:92 bit:64 dataset:cifar10 MAP:0.8248325488828122 Best MAP: 0.8284175370559096
+2024-03-08 04:05:21,278 - root - INFO - ResNet epoch:96 bit:64 dataset:cifar10 MAP:0.8093299675956368 Best MAP: 0.8284175370559096
+                                                                                                                                  2024-03-08 04:07:34,747 - root - INFO - ResNet epoch:100 bit:64 dataset:cifar10 MAP:0.8111918517313897 Best MAP: 0.8284175370559096
+2024-03-08 04:09:47,255 - root - INFO - ResNet epoch:104 bit:64 dataset:cifar10 MAP:0.8246673052385449 Best MAP: 0.8284175370559096
+2024-03-08 04:10:04,105 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-08 04:10:14,512 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-08 04:10:24,896 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-08 04:10:45,807 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+                                                                                                                                  2024-03-08 04:12:18,129 - root - INFO - ResNet epoch:4 bit:128 dataset:cifar10 MAP:0.5699458881914615 Best MAP: 0.5699458881914615
+2024-03-08 04:14:32,429 - root - INFO - ResNet epoch:8 bit:128 dataset:cifar10 MAP:0.6833231068365276 Best MAP: 0.6833231068365276
+                                                                                                                                 2024-03-08 04:16:46,705 - root - INFO - ResNet epoch:12 bit:128 dataset:cifar10 MAP:0.7467577438876033 Best MAP: 0.7467577438876033
+2024-03-08 04:18:58,654 - root - INFO - ResNet epoch:16 bit:128 dataset:cifar10 MAP:0.7768877216130495 Best MAP: 0.7768877216130495
+2024-03-08 04:21:11,950 - root - INFO - ResNet epoch:20 bit:128 dataset:cifar10 MAP:0.7942092178612947 Best MAP: 0.7942092178612947
+                                                                                                                                  2024-03-08 04:23:26,576 - root - INFO - ResNet epoch:24 bit:128 dataset:cifar10 MAP:0.8028309255093337 Best MAP: 0.8028309255093337
+2024-03-08 04:25:39,010 - root - INFO - ResNet epoch:28 bit:128 dataset:cifar10 MAP:0.8140957658216357 Best MAP: 0.8140957658216357
+                                                                                                                                  2024-03-08 04:27:51,974 - root - INFO - ResNet epoch:32 bit:128 dataset:cifar10 MAP:0.8260860403180122 Best MAP: 0.8260860403180122
+2024-03-08 04:30:06,351 - root - INFO - ResNet epoch:36 bit:128 dataset:cifar10 MAP:0.8415267661064864 Best MAP: 0.8415267661064864
+                                                                                                                                  2024-03-08 04:32:21,087 - root - INFO - ResNet epoch:40 bit:128 dataset:cifar10 MAP:0.8216869184598327 Best MAP: 0.8415267661064864
+2024-03-08 04:34:35,329 - root - INFO - ResNet epoch:44 bit:128 dataset:cifar10 MAP:0.8344185279309749 Best MAP: 0.8415267661064864
+                                                                                                                                2024-03-08 04:36:50,000 - root - INFO - ResNet epoch:48 bit:128 dataset:cifar10 MAP:0.8205326454788446 Best MAP: 0.8415267661064864
+2024-03-08 04:39:05,391 - root - INFO - ResNet epoch:52 bit:128 dataset:cifar10 MAP:0.8339765983074904 Best MAP: 0.8415267661064864
+                                                                                                                                 2024-03-08 04:41:18,050 - root - INFO - ResNet epoch:56 bit:128 dataset:cifar10 MAP:0.8365280116200448 Best MAP: 0.8415267661064864
+2024-03-08 04:43:31,085 - root - INFO - ResNet epoch:60 bit:128 dataset:cifar10 MAP:0.84228919852525 Best MAP: 0.84228919852525
+                                                                                                                                 2024-03-08 04:45:44,980 - root - INFO - ResNet epoch:64 bit:128 dataset:cifar10 MAP:0.8479974407367409 Best MAP: 0.8479974407367409
+2024-03-08 04:47:57,342 - root - INFO - ResNet epoch:68 bit:128 dataset:cifar10 MAP:0.8529625691473484 Best MAP: 0.8529625691473484
+2024-03-08 04:50:10,891 - root - INFO - ResNet epoch:72 bit:128 dataset:cifar10 MAP:0.8529289497360587 Best MAP: 0.8529625691473484
+                                                                                                                                2024-03-08 04:52:23,695 - root - INFO - ResNet epoch:76 bit:128 dataset:cifar10 MAP:0.8504792581424117 Best MAP: 0.8529625691473484
+2024-03-08 04:54:37,986 - root - INFO - ResNet epoch:80 bit:128 dataset:cifar10 MAP:0.8474294632524252 Best MAP: 0.8529625691473484
+                                                                                                                                 2024-03-08 04:56:53,154 - root - INFO - ResNet epoch:84 bit:128 dataset:cifar10 MAP:0.8513080536648631 Best MAP: 0.8529625691473484
+2024-03-08 04:59:05,836 - root - INFO - ResNet epoch:88 bit:128 dataset:cifar10 MAP:0.8309900724217296 Best MAP: 0.8529625691473484
+                                                                                                                                 2024-03-08 05:01:20,356 - root - INFO - ResNet epoch:92 bit:128 dataset:cifar10 MAP:0.8506513834223152 Best MAP: 0.8529625691473484
+2024-03-08 05:01:39,999 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-08 05:01:50,435 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-08 05:02:00,846 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-08 05:02:22,702 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-08 05:02:33,152 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-08 05:02:43,545 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-08 05:03:52,839 - root - INFO - ResNet epoch:4 bit:256 dataset:cifar10 MAP:0.6157368601486087 Best MAP: 0.6157368601486087
+                                                                                                                                  2024-03-08 05:06:06,913 - root - INFO - ResNet epoch:8 bit:256 dataset:cifar10 MAP:0.7409785218536854 Best MAP: 0.7409785218536854
+2024-03-08 05:08:22,654 - root - INFO - ResNet epoch:12 bit:256 dataset:cifar10 MAP:0.7664488769620657 Best MAP: 0.7664488769620657
+                                                                                                                                  2024-03-08 05:10:35,589 - root - INFO - ResNet epoch:16 bit:256 dataset:cifar10 MAP:0.8009984597414732 Best MAP: 0.8009984597414732
+2024-03-08 05:12:49,385 - root - INFO - ResNet epoch:20 bit:256 dataset:cifar10 MAP:0.8038796842843294 Best MAP: 0.8038796842843294
+2024-03-08 05:15:02,676 - root - INFO - ResNet epoch:24 bit:256 dataset:cifar10 MAP:0.8111708276420831 Best MAP: 0.8111708276420831
+                                                                                                                                   2024-03-08 05:17:15,210 - root - INFO - ResNet epoch:28 bit:256 dataset:cifar10 MAP:0.8317382541559637 Best MAP: 0.8317382541559637
+2024-03-08 05:19:29,242 - root - INFO - ResNet epoch:32 bit:256 dataset:cifar10 MAP:0.8367361093871295 Best MAP: 0.8367361093871295
+                                                                                                                                   2024-03-08 05:21:42,509 - root - INFO - ResNet epoch:36 bit:256 dataset:cifar10 MAP:0.8391518778689205 Best MAP: 0.8391518778689205
+2024-03-08 05:23:55,786 - root - INFO - ResNet epoch:40 bit:256 dataset:cifar10 MAP:0.8367015591152013 Best MAP: 0.8391518778689205
+                                                                                                                                   2024-03-08 05:26:09,701 - root - INFO - ResNet epoch:44 bit:256 dataset:cifar10 MAP:0.8528418469168246 Best MAP: 0.8528418469168246
+2024-03-08 05:28:22,448 - root - INFO - ResNet epoch:48 bit:256 dataset:cifar10 MAP:0.8381459689065814 Best MAP: 0.8528418469168246
+                                                                                                                                 2024-03-08 05:30:36,461 - root - INFO - ResNet epoch:52 bit:256 dataset:cifar10 MAP:0.8530157068632543 Best MAP: 0.8530157068632543
+2024-03-08 05:32:52,606 - root - INFO - ResNet epoch:56 bit:256 dataset:cifar10 MAP:0.8466512575298548 Best MAP: 0.8530157068632543
+                                                                                                                                  2024-03-08 05:35:06,772 - root - INFO - ResNet epoch:60 bit:256 dataset:cifar10 MAP:0.8403600757196545 Best MAP: 0.8530157068632543
+2024-03-08 05:37:21,243 - root - INFO - ResNet epoch:64 bit:256 dataset:cifar10 MAP:0.8591113826222718 Best MAP: 0.8591113826222718
+2024-03-08 05:39:35,262 - root - INFO - ResNet epoch:68 bit:256 dataset:cifar10 MAP:0.8400743820145726 Best MAP: 0.8591113826222718
+                                                                                                                                  2024-03-08 05:41:49,073 - root - INFO - ResNet epoch:72 bit:256 dataset:cifar10 MAP:0.859328226134181 Best MAP: 0.859328226134181
+2024-03-08 05:44:02,441 - root - INFO - ResNet epoch:76 bit:256 dataset:cifar10 MAP:0.8399553123489022 Best MAP: 0.859328226134181
+                                                                                                                                  2024-03-08 05:46:17,828 - root - INFO - ResNet epoch:80 bit:256 dataset:cifar10 MAP:0.8408835447058082 Best MAP: 0.859328226134181
+2024-03-08 05:48:32,424 - root - INFO - ResNet epoch:84 bit:256 dataset:cifar10 MAP:0.8478351221159101 Best MAP: 0.859328226134181
+                                                                                                                                  2024-03-08 05:50:44,805 - root - INFO - ResNet epoch:88 bit:256 dataset:cifar10 MAP:0.8351227497830988 Best MAP: 0.859328226134181
+2024-03-08 05:52:57,791 - root - INFO - ResNet epoch:92 bit:256 dataset:cifar10 MAP:0.8538617755025625 Best MAP: 0.859328226134181
+                                                                                                                                  2024-03-08 05:55:09,854 - root - INFO - ResNet epoch:96 bit:256 dataset:cifar10 MAP:0.8413594479858876 Best MAP: 0.859328226134181
+2024-03-08 05:59:47,251 - root - INFO - ResNet epoch:144 bit:8 dataset:cifar10 MAP:0.6740168292447924 Best MAP: 0.678643029961735
+2024-03-08 06:00:04,655 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-08 06:00:15,101 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-08 06:00:25,541 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-08 06:00:46,340 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-08 06:00:56,755 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-08 06:01:07,165 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-08 06:05:04,900 - root - INFO - ResNet epoch:4 bit:16 dataset:cifar10 MAP:0.3740118166096508 Best MAP: 0.3740118166096508
+2024-03-08 06:10:02,526 - root - INFO - ResNet epoch:8 bit:16 dataset:cifar10 MAP:0.505797018121928 Best MAP: 0.505797018121928
+2024-03-08 06:14:58,012 - root - INFO - ResNet epoch:12 bit:16 dataset:cifar10 MAP:0.5881466076150537 Best MAP: 0.5881466076150537
+2024-03-08 06:19:56,995 - root - INFO - ResNet epoch:16 bit:16 dataset:cifar10 MAP:0.6164719757288695 Best MAP: 0.6164719757288695
+2024-03-08 06:24:57,066 - root - INFO - ResNet epoch:20 bit:16 dataset:cifar10 MAP:0.652879700139165 Best MAP: 0.652879700139165
+2024-03-08 06:29:59,426 - root - INFO - ResNet epoch:24 bit:16 dataset:cifar10 MAP:0.6693968181535601 Best MAP: 0.6693968181535601
+2024-03-08 06:34:57,425 - root - INFO - ResNet epoch:28 bit:16 dataset:cifar10 MAP:0.67174480785802 Best MAP: 0.67174480785802
+2024-03-08 06:39:52,096 - root - INFO - ResNet epoch:32 bit:16 dataset:cifar10 MAP:0.686022355414927 Best MAP: 0.686022355414927
+2024-03-08 06:44:54,155 - root - INFO - ResNet epoch:36 bit:16 dataset:cifar10 MAP:0.7018261704482138 Best MAP: 0.7018261704482138
+2024-03-08 06:49:55,037 - root - INFO - ResNet epoch:40 bit:16 dataset:cifar10 MAP:0.7092587382867932 Best MAP: 0.7092587382867932
+2024-03-08 06:54:53,622 - root - INFO - ResNet epoch:44 bit:16 dataset:cifar10 MAP:0.6951405505724251 Best MAP: 0.7092587382867932
+2024-03-08 06:59:15,572 - root - INFO - ResNet epoch:48 bit:16 dataset:cifar10 MAP:0.7303922655805946 Best MAP: 0.7303922655805946
+2024-03-08 07:04:17,470 - root - INFO - ResNet epoch:52 bit:16 dataset:cifar10 MAP:0.711773278515786 Best MAP: 0.7303922655805946
+2024-03-08 07:09:17,514 - root - INFO - ResNet epoch:56 bit:16 dataset:cifar10 MAP:0.7007399041764438 Best MAP: 0.7303922655805946
+2024-03-08 07:14:17,388 - root - INFO - ResNet epoch:60 bit:16 dataset:cifar10 MAP:0.7345535996183753 Best MAP: 0.7345535996183753
+2024-03-08 07:19:17,279 - root - INFO - ResNet epoch:64 bit:16 dataset:cifar10 MAP:0.7400201184116304 Best MAP: 0.7400201184116304
+2024-03-08 07:24:18,015 - root - INFO - ResNet epoch:68 bit:16 dataset:cifar10 MAP:0.7299918362945318 Best MAP: 0.7400201184116304
+2024-03-08 07:29:17,359 - root - INFO - ResNet epoch:72 bit:16 dataset:cifar10 MAP:0.7348440603539348 Best MAP: 0.7400201184116304
+2024-03-08 07:34:17,069 - root - INFO - ResNet epoch:76 bit:16 dataset:cifar10 MAP:0.7424132718928158 Best MAP: 0.7424132718928158
+2024-03-08 07:39:19,136 - root - INFO - ResNet epoch:80 bit:16 dataset:cifar10 MAP:0.73670128666237 Best MAP: 0.7424132718928158
+2024-03-08 07:44:17,255 - root - INFO - ResNet epoch:84 bit:16 dataset:cifar10 MAP:0.7385551387406886 Best MAP: 0.7424132718928158
+2024-03-08 07:49:17,274 - root - INFO - ResNet epoch:88 bit:16 dataset:cifar10 MAP:0.7401388198249041 Best MAP: 0.7424132718928158
+2024-03-08 07:54:20,212 - root - INFO - ResNet epoch:92 bit:16 dataset:cifar10 MAP:0.7386824762560427 Best MAP: 0.7424132718928158
+2024-03-08 07:59:21,467 - root - INFO - ResNet epoch:96 bit:16 dataset:cifar10 MAP:0.7497158641256392 Best MAP: 0.7497158641256392
+2024-03-08 08:04:21,274 - root - INFO - ResNet epoch:100 bit:16 dataset:cifar10 MAP:0.755732362806797 Best MAP: 0.755732362806797
+2024-03-08 08:09:18,611 - root - INFO - ResNet epoch:104 bit:16 dataset:cifar10 MAP:0.7313320921137929 Best MAP: 0.755732362806797
+2024-03-08 08:14:19,924 - root - INFO - ResNet epoch:108 bit:16 dataset:cifar10 MAP:0.7359333812892437 Best MAP: 0.755732362806797
+2024-03-08 08:19:20,223 - root - INFO - ResNet epoch:112 bit:16 dataset:cifar10 MAP:0.7545833707153797 Best MAP: 0.755732362806797
+2024-03-08 08:24:21,791 - root - INFO - ResNet epoch:116 bit:16 dataset:cifar10 MAP:0.7502099318131804 Best MAP: 0.755732362806797
+2024-03-08 08:29:22,632 - root - INFO - ResNet epoch:120 bit:16 dataset:cifar10 MAP:0.7696091456599533 Best MAP: 0.7696091456599533
+2024-03-08 08:34:20,422 - root - INFO - ResNet epoch:124 bit:16 dataset:cifar10 MAP:0.747243751719594 Best MAP: 0.7696091456599533
+2024-03-08 08:39:21,424 - root - INFO - ResNet epoch:128 bit:16 dataset:cifar10 MAP:0.7583894181586802 Best MAP: 0.7696091456599533
+2024-03-08 08:44:21,545 - root - INFO - ResNet epoch:132 bit:16 dataset:cifar10 MAP:0.7527092579714953 Best MAP: 0.7696091456599533
+2024-03-08 08:49:23,189 - root - INFO - ResNet epoch:136 bit:16 dataset:cifar10 MAP:0.7503055361136794 Best MAP: 0.7696091456599533
+2024-03-08 08:54:18,578 - root - INFO - ResNet epoch:140 bit:16 dataset:cifar10 MAP:0.769836529765278 Best MAP: 0.769836529765278
+2024-03-08 08:59:17,595 - root - INFO - ResNet epoch:144 bit:16 dataset:cifar10 MAP:0.7527164290286601 Best MAP: 0.769836529765278
+2024-03-08 09:04:11,207 - root - INFO - ResNet epoch:148 bit:16 dataset:cifar10 MAP:0.7637852307930588 Best MAP: 0.769836529765278
+2024-03-08 09:09:12,540 - root - INFO - ResNet epoch:152 bit:16 dataset:cifar10 MAP:0.7527536380328238 Best MAP: 0.769836529765278
+2024-03-08 09:13:28,160 - root - INFO - ResNet epoch:156 bit:16 dataset:cifar10 MAP:0.7634167460724711 Best MAP: 0.769836529765278
+2024-03-08 09:18:26,421 - root - INFO - ResNet epoch:160 bit:16 dataset:cifar10 MAP:0.7559664444550872 Best MAP: 0.769836529765278
+2024-03-08 09:23:25,398 - root - INFO - ResNet epoch:164 bit:16 dataset:cifar10 MAP:0.7758937344960868 Best MAP: 0.7758937344960868
+2024-03-08 09:28:20,481 - root - INFO - ResNet epoch:168 bit:16 dataset:cifar10 MAP:0.7406814086735248 Best MAP: 0.7758937344960868
+2024-03-08 09:33:20,393 - root - INFO - ResNet epoch:172 bit:16 dataset:cifar10 MAP:0.7559598378464579 Best MAP: 0.7758937344960868
+2024-03-08 09:38:16,770 - root - INFO - ResNet epoch:176 bit:16 dataset:cifar10 MAP:0.7672195152156055 Best MAP: 0.7758937344960868
+2024-03-08 09:43:17,313 - root - INFO - ResNet epoch:180 bit:16 dataset:cifar10 MAP:0.7611616116203368 Best MAP: 0.7758937344960868
+2024-03-08 09:48:12,499 - root - INFO - ResNet epoch:184 bit:16 dataset:cifar10 MAP:0.7801715264841914 Best MAP: 0.7801715264841914
+2024-03-08 09:54:06,685 - root - INFO - ResNet epoch:188 bit:16 dataset:cifar10 MAP:0.7782407821714878 Best MAP: 0.7801715264841914
+2024-03-08 10:02:51,324 - root - INFO - ResNet epoch:192 bit:16 dataset:cifar10 MAP:0.7638786542080342 Best MAP: 0.7801715264841914
+2024-03-08 10:11:30,106 - root - INFO - ResNet epoch:196 bit:16 dataset:cifar10 MAP:0.7680639309547842 Best MAP: 0.7801715264841914
+2024-03-08 10:20:16,945 - root - INFO - ResNet epoch:200 bit:16 dataset:cifar10 MAP:0.7515697968378663 Best MAP: 0.7801715264841914
+2024-03-08 10:28:59,071 - root - INFO - ResNet epoch:204 bit:16 dataset:cifar10 MAP:0.7507865312919021 Best MAP: 0.7801715264841914
+2024-03-08 10:37:02,735 - root - INFO - ResNet epoch:208 bit:16 dataset:cifar10 MAP:0.7635722516588866 Best MAP: 0.7801715264841914
+2024-03-08 10:37:23,249 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-08 10:37:33,650 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-08 10:37:44,049 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-08 10:38:04,891 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-08 10:38:15,402 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-08 10:38:25,874 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/

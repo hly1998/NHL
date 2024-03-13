@@ -1,0 +1,87 @@
+2024-03-07 15:29:16,787 - root - INFO - ResNet epoch:4 bit:8 dataset:cifar10 MAP:0.6363368223980069 Best MAP: 0.6363368223980069
+2024-03-07 15:30:49,683 - root - INFO - ResNet epoch:8 bit:8 dataset:cifar10 MAP:0.7033974592834711 Best MAP: 0.7033974592834711
+2024-03-08 05:56:48,506 - root - INFO - ResNet epoch:4 bit:8 dataset:cifar10 MAP:0.5898622708395124 Best MAP: 0.5898622708395124
+2024-03-08 05:58:01,346 - root - INFO - ResNet epoch:8 bit:8 dataset:cifar10 MAP:0.5859624035097659 Best MAP: 0.5898622708395124
+2024-03-08 05:59:13,613 - root - INFO - ResNet epoch:12 bit:8 dataset:cifar10 MAP:0.7187287708595395 Best MAP: 0.7187287708595395
+2024-03-08 06:00:27,060 - root - INFO - ResNet epoch:16 bit:8 dataset:cifar10 MAP:0.7002379616238177 Best MAP: 0.7187287708595395
+2024-03-08 06:01:39,764 - root - INFO - ResNet epoch:20 bit:8 dataset:cifar10 MAP:0.7045947278514505 Best MAP: 0.7187287708595395
+2024-03-08 06:02:52,244 - root - INFO - ResNet epoch:24 bit:8 dataset:cifar10 MAP:0.7012278594709933 Best MAP: 0.7187287708595395
+2024-03-08 06:04:04,629 - root - INFO - ResNet epoch:28 bit:8 dataset:cifar10 MAP:0.6951720975600183 Best MAP: 0.7187287708595395
+2024-03-08 06:05:16,210 - root - INFO - ResNet epoch:32 bit:8 dataset:cifar10 MAP:0.6943700515963137 Best MAP: 0.7187287708595395
+2024-03-08 06:06:28,407 - root - INFO - ResNet epoch:36 bit:8 dataset:cifar10 MAP:0.6938796912394464 Best MAP: 0.7187287708595395
+2024-03-08 06:06:43,951 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-08 06:06:54,393 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-08 06:07:04,869 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-08 06:07:25,727 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-08 06:07:36,139 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-08 06:07:46,576 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-08 06:07:57,274 - root - INFO - ResNet epoch:4 bit:16 dataset:cifar10 MAP:0.616813810069114 Best MAP: 0.616813810069114
+2024-03-08 06:09:10,887 - root - INFO - ResNet epoch:8 bit:16 dataset:cifar10 MAP:0.70289205827564 Best MAP: 0.70289205827564
+2024-03-08 06:10:25,683 - root - INFO - ResNet epoch:12 bit:16 dataset:cifar10 MAP:0.719910447306931 Best MAP: 0.719910447306931
+2024-03-08 06:11:38,538 - root - INFO - ResNet epoch:16 bit:16 dataset:cifar10 MAP:0.7043908591195941 Best MAP: 0.719910447306931
+2024-03-08 06:12:54,094 - root - INFO - ResNet epoch:20 bit:16 dataset:cifar10 MAP:0.7012806049659848 Best MAP: 0.719910447306931
+2024-03-08 06:14:07,617 - root - INFO - ResNet epoch:24 bit:16 dataset:cifar10 MAP:0.7447442653886974 Best MAP: 0.7447442653886974
+2024-03-08 06:15:20,011 - root - INFO - ResNet epoch:28 bit:16 dataset:cifar10 MAP:0.7654744815900922 Best MAP: 0.7654744815900922
+2024-03-08 06:16:33,227 - root - INFO - ResNet epoch:32 bit:16 dataset:cifar10 MAP:0.7550855667069555 Best MAP: 0.7654744815900922
+2024-03-08 06:17:48,444 - root - INFO - ResNet epoch:36 bit:16 dataset:cifar10 MAP:0.7598184803687036 Best MAP: 0.7654744815900922
+2024-03-08 06:19:03,257 - root - INFO - ResNet epoch:40 bit:16 dataset:cifar10 MAP:0.7510445034652948 Best MAP: 0.7654744815900922
+2024-03-08 06:20:17,711 - root - INFO - ResNet epoch:44 bit:16 dataset:cifar10 MAP:0.7581197789050639 Best MAP: 0.7654744815900922
+2024-03-08 06:21:32,542 - root - INFO - ResNet epoch:48 bit:16 dataset:cifar10 MAP:0.7318027474172414 Best MAP: 0.7654744815900922
+2024-03-08 06:22:45,496 - root - INFO - ResNet epoch:52 bit:16 dataset:cifar10 MAP:0.7440034226290881 Best MAP: 0.7654744815900922
+2024-03-08 06:23:02,232 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-08 06:23:12,620 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-08 06:23:23,140 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-08 06:23:43,996 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-08 06:23:54,470 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-08 06:24:04,899 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-08 06:24:17,046 - root - INFO - ResNet epoch:4 bit:32 dataset:cifar10 MAP:0.759007990706712 Best MAP: 0.759007990706712
+2024-03-08 06:25:29,716 - root - INFO - ResNet epoch:8 bit:32 dataset:cifar10 MAP:0.8333055149316788 Best MAP: 0.8333055149316788
+2024-03-08 06:26:42,623 - root - INFO - ResNet epoch:12 bit:32 dataset:cifar10 MAP:0.8197738774567842 Best MAP: 0.8333055149316788
+2024-03-08 06:27:57,385 - root - INFO - ResNet epoch:16 bit:32 dataset:cifar10 MAP:0.8077043524757027 Best MAP: 0.8333055149316788
+2024-03-08 06:29:11,649 - root - INFO - ResNet epoch:20 bit:32 dataset:cifar10 MAP:0.7922124250940978 Best MAP: 0.8333055149316788
+2024-03-08 06:30:23,928 - root - INFO - ResNet epoch:24 bit:32 dataset:cifar10 MAP:0.7904049233049154 Best MAP: 0.8333055149316788
+2024-03-08 06:31:38,566 - root - INFO - ResNet epoch:28 bit:32 dataset:cifar10 MAP:0.7841133192926645 Best MAP: 0.8333055149316788
+2024-03-08 06:32:51,713 - root - INFO - ResNet epoch:32 bit:32 dataset:cifar10 MAP:0.7668456556051969 Best MAP: 0.8333055149316788
+2024-03-08 06:33:07,716 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-08 06:33:18,111 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-08 06:33:28,504 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-08 06:33:49,370 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-08 06:33:59,773 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-08 06:34:10,190 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-08 06:34:20,341 - root - INFO - ResNet epoch:4 bit:64 dataset:cifar10 MAP:0.8104360392130912 Best MAP: 0.8104360392130912
+2024-03-08 06:35:33,575 - root - INFO - ResNet epoch:8 bit:64 dataset:cifar10 MAP:0.857294561419636 Best MAP: 0.857294561419636
+2024-03-08 06:36:49,215 - root - INFO - ResNet epoch:12 bit:64 dataset:cifar10 MAP:0.8437982317693532 Best MAP: 0.857294561419636
+2024-03-08 06:38:03,131 - root - INFO - ResNet epoch:16 bit:64 dataset:cifar10 MAP:0.8258004242703318 Best MAP: 0.857294561419636
+2024-03-08 06:39:16,665 - root - INFO - ResNet epoch:20 bit:64 dataset:cifar10 MAP:0.8121820370331406 Best MAP: 0.857294561419636
+2024-03-08 06:40:30,050 - root - INFO - ResNet epoch:24 bit:64 dataset:cifar10 MAP:0.8122472949922085 Best MAP: 0.857294561419636
+2024-03-08 06:41:43,989 - root - INFO - ResNet epoch:28 bit:64 dataset:cifar10 MAP:0.801670681823045 Best MAP: 0.857294561419636
+2024-03-08 06:42:59,201 - root - INFO - ResNet epoch:32 bit:64 dataset:cifar10 MAP:0.7982387537807226 Best MAP: 0.857294561419636
+2024-03-08 06:43:16,960 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-08 06:43:27,419 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-08 06:43:37,865 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-08 06:43:58,685 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-08 06:44:09,071 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-08 06:44:19,566 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-08 06:44:28,024 - root - INFO - ResNet epoch:4 bit:128 dataset:cifar10 MAP:0.8308584396801889 Best MAP: 0.8308584396801889
+2024-03-08 06:45:42,130 - root - INFO - ResNet epoch:8 bit:128 dataset:cifar10 MAP:0.8537374146170914 Best MAP: 0.8537374146170914
+2024-03-08 06:46:54,182 - root - INFO - ResNet epoch:12 bit:128 dataset:cifar10 MAP:0.8375666819028557 Best MAP: 0.8537374146170914
+2024-03-08 06:48:07,074 - root - INFO - ResNet epoch:16 bit:128 dataset:cifar10 MAP:0.821689335808158 Best MAP: 0.8537374146170914
+2024-03-08 06:49:20,207 - root - INFO - ResNet epoch:20 bit:128 dataset:cifar10 MAP:0.8066839334331453 Best MAP: 0.8537374146170914
+2024-03-08 06:50:32,725 - root - INFO - ResNet epoch:24 bit:128 dataset:cifar10 MAP:0.7991881607063115 Best MAP: 0.8537374146170914
+2024-03-08 06:51:45,958 - root - INFO - ResNet epoch:28 bit:128 dataset:cifar10 MAP:0.8016631338484586 Best MAP: 0.8537374146170914
+2024-03-08 06:52:59,714 - root - INFO - ResNet epoch:32 bit:128 dataset:cifar10 MAP:0.7915952921696007 Best MAP: 0.8537374146170914
+2024-03-08 06:53:15,743 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-08 06:53:26,198 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-08 06:53:36,583 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-08 06:53:57,417 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-08 06:54:07,838 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-08 06:54:18,230 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:997)'))': /api/4504800232407040/envelope/
+2024-03-08 06:54:27,669 - root - INFO - ResNet epoch:4 bit:256 dataset:cifar10 MAP:0.8359749182164669 Best MAP: 0.8359749182164669
+2024-03-08 06:55:39,648 - root - INFO - ResNet epoch:8 bit:256 dataset:cifar10 MAP:0.8524624380879104 Best MAP: 0.8524624380879104
+2024-03-08 06:56:51,287 - root - INFO - ResNet epoch:12 bit:256 dataset:cifar10 MAP:0.8526303526386618 Best MAP: 0.8526303526386618
+2024-03-08 06:58:04,269 - root - INFO - ResNet epoch:16 bit:256 dataset:cifar10 MAP:0.8403935128860176 Best MAP: 0.8526303526386618
+2024-03-08 06:59:16,454 - root - INFO - ResNet epoch:20 bit:256 dataset:cifar10 MAP:0.832798373695463 Best MAP: 0.8526303526386618
+2024-03-08 07:00:29,086 - root - INFO - ResNet epoch:24 bit:256 dataset:cifar10 MAP:0.8203317045904696 Best MAP: 0.8526303526386618
+2024-03-08 07:01:41,554 - root - INFO - ResNet epoch:28 bit:256 dataset:cifar10 MAP:0.8091957250349223 Best MAP: 0.8526303526386618
+2024-03-08 07:02:53,461 - root - INFO - ResNet epoch:32 bit:256 dataset:cifar10 MAP:0.8003659988194705 Best MAP: 0.8526303526386618
+2024-03-08 07:04:05,933 - root - INFO - ResNet epoch:36 bit:256 dataset:cifar10 MAP:0.8006718091145157 Best MAP: 0.8526303526386618
