@@ -1,4 +1,3 @@
-# 2023.10.24 Deep Hashing with Minimal-Distance-Separated Hash Centers (CVPR23)
 import torch
 from utils.tools import *
 import torch.nn.functional as F
@@ -91,56 +90,9 @@ class MDSHLoss(NN.Module):
         loss = s * torch.log(p) + (1-s) * torch.log(1-p)
         loss = torch.mean(loss)
         return -loss
-            
-    # def get_margin(self):
-    #     # 1. 计算d_min
-    #     L = self.bit
-    #     n_class = self.config['n_class']
-    #     right = (2 ** L) / n_class
-    #     d_min = 0
-    #     d_max = 0
-    #     for j in range(2 * L + 4):
-    #         dim = j
-    #         sum_1 = 0
-    #         sum_2 = 0
-    #         for i in range((dim - 1) // 2 + 1):
-    #             sum_1 += comb(L, i)
-    #         for i in range((dim) // 2 + 1):
-    #             sum_2 += comb(L, i)
-    #         if sum_1 <= right and sum_2 > right:
-    #             d_min = dim
-    #     for i in range(2 * L + 4):
-    #         dim = i
-    #         sum_1 = 0
-    #         sum_2 = 0
-    #         for j in range(dim):
-    #             sum_1 += comb(L, j)
-    #         for j in range(dim - 1):
-    #             sum_2 += comb(L, j)
-    #         if sum_1 >= right and sum_2 < right:
-    #             d_max = dim
-    #     # 2. 计算alpha_neg和alpha_pos
-    #     alpha_neg = L - 2 * d_max
-    #     beta_neg = L - 2 * d_min
-    #     alpha_pos = L
-    #     return alpha_pos, alpha_neg, beta_neg, d_min, d_max
 
     def generate_center(self, bit, n_class, l):
-        # print(n_class)
         hash_centers = np.load(f'./tmp_file/MDSH/init_{n_class}_{bit}.npy')
-        # 生成 hash center
-        # self.evaluate_centers(hash_centers)
-        # print(hash_centers, hash_centers.shape)
         hash_centers = hash_centers[l]
         Z = torch.from_numpy(hash_centers).float()
         return Z
-    
-    # def evaluate_centers(self, H):
-    #     dist = []
-    #     for i in range(H.shape[0]):
-    #         for j in range(i+1, H.shape[0]):
-    #                 TF = np.sum(H[i] != H[j])
-    #                 dist.append(TF)
-    #     dist = np.array(dist)
-    #     st = dist.mean() - dist.var() + dist.min()
-    #     print(f"mean is {dist.mean()}; min is {dist.min()}; var is {dist.var()}; max is {dist.max()}")

@@ -3,25 +3,16 @@ import torch
 import random
 import logging
 import psutil
-from bit_length.model_grand import grand_train_val
-# from network import ResNet
-from bl_network import ResNet_f, RML_layer, RML_E_layer, ResNet, RML_E_layer_norm, RML_E_layer_batchnrom, RML_E_layer_allnorm, MoCo, MoCo_RML
+from bit_length.model_grand_sd import grand_train_val
+from bl_network import ResNet_f, RML_E_layer, ResNet, MoCo, MoCo_RML, ViT_B, ViT_B_f, MoCo_RML_head
 import argparse
 import wandb
 from bit_length.MDSH import mdsh_config
 import os
 
-# count = psutil.cpu_count()
-# print(f"逻辑cpu的数量是{count}")
-# p = psutil.Process()
-# p.cpu_affinity(list(random.sample(range(1, count), 6)))
-# torch.multiprocessing.set_sharing_strategy('file_system')
-
-os.environ["WANDB_MODE"] = "offline"
-
 def get_argparser():
         parser = argparse.ArgumentParser()
-        parser.add_argument('--dataset', type=str, default='imagenet', help='可以选择的有imagenet, cifar10-1, cifar10-2, nuswide_21')
+        parser.add_argument('--dataset', type=str, default='imagenet', help='choose from imagenet, cifar10, coco')
         parser.add_argument('--optimizer', type=str, default='Adam')
         parser.add_argument('--net', type=str, default='ResNet_RML')
         parser.add_argument('--mode', type=str, default='simple')
@@ -31,21 +22,23 @@ def get_argparser():
         parser.add_argument('--batch_size', type=int, default=64)
         parser.add_argument('--epoch', type=int, default=1500)
         parser.add_argument('--test_map', type=int, default=10)
-        parser.add_argument('--stop_iter', type=int, default=5, help='控制在效果没有提升多少次后停止运行')
+        parser.add_argument('--stop_iter', type=int, default=5, help='control the stop epoch')
         parser.add_argument('--device', type=int, default=1)
         parser.add_argument('--bit', type=int, default=64)
-        parser.add_argument('--distill', action='store_true', help='是否采用自蒸馏')
+        parser.add_argument('--distill', action='store_true', help='use distill?')
         parser.add_argument('--distill_weight', type=float, default=0.1)
-        parser.add_argument('--analysis', action='store_true', help='是否去分析梯度情况')
-        parser.add_argument('--heuristic_weight', action='store_true', help='是否采用启发式权重作用于损失目标，如果是，需要修改下面的值')
+        parser.add_argument('--analysis', action='store_true', help='use analysis?')
+        parser.add_argument('--heuristic_weight', action='store_true', help='use heuristic_weight?')
         parser.add_argument('--heuristic_weight_value', nargs='+', type=float, default=[2.0, 1.5, 1.0])
-        parser.add_argument('--step_update', action='store_true', help='是否采用依次更新的方式')
+        parser.add_argument('--bit_list', nargs='+', type=int, default=[8,16,32,64,128])
+        parser.add_argument('--step_update', action='store_true', help='use iterate update?')
         parser.add_argument('--step_update_value', nargs='+', type=int, default=[30, 60])
-        parser.add_argument('--space', action='store_true', help='是否采用空间对齐')
+        parser.add_argument('--space', action='store_true', help='use space alignment?')
         parser.add_argument('--space_weight', type=float, default=0.01)
         # parser.add_argument('--norm', action='store_true', help='是否采用norm')
-        parser.add_argument('--norm', type=str, default='no', help='no:不用norm, batch:batchnorm, bias:分离的bias')
-        parser.add_argument('--wandb', action='store_true', help='是否使用wandb记录结果')
+        parser.add_argument('--norm', type=str, default='no', help='norm type')
+        parser.add_argument('--wandb', action='store_true', help='use wandb to record?')
+        parser.add_argument('--in_feature', type=int, default=2048)
         return parser
 
 def get_config(args):
@@ -62,12 +55,14 @@ def get_config(args):
     net_map = {
         "ResNet": ResNet,
         'ResNet_RML': ResNet_f,
+        "ViT_B": ViT_B,
+        'ViT_B_f': ViT_B_f,
     }
     config = {
         "optimizer": {"type": optimizer_map[args.optimizer], "optim_params": {"lr": args.lr, "weight_decay": args.weight_decay}},
         "info": args.info,
         "net": net_map[args.net],
-        "mode": args.mode, # simple: 直接训练 RML: 多任务形式 - RML_E: 共享参数
+        "mode": args.mode, # simple: deep hashing w/o NHL RML_E: w/ NHL
         "dataset": args.dataset,
         "epoch": args.epoch,
         "distill": args.distill,
@@ -87,9 +82,8 @@ def get_config(args):
         "test_map": args.test_map,
         "device": torch.device("cuda:{}".format(args.device)),
         "stop_iter": args.stop_iter,
-        "bit_list": [8,16,32,64,128],
-        # "bit_list": [64,],
-        "in_feature": 2048
+        "bit_list": args.bit_list,
+        "in_feature": args.in_feature
     }
     config = config_dataset(config)
     return config
@@ -130,7 +124,7 @@ if __name__ == "__main__":
             grand_train_val(config, bit, net)
             if config["wandb"]:
                 wandb.finish()
-    elif config["mode"] in ['RML', 'RML_E']:
+    elif config["mode"] in ['RML_E']:
         if config["wandb"]:
             wandb.init(
                 # set the wandb project where this run will be logged
@@ -149,29 +143,25 @@ if __name__ == "__main__":
                     "distill": args.distill
                 },
             )
-        if config["mode"] == "RML":
-            backbone = config["net"]()
-            head = RML_layer(config["in_feature"])
-            net = torch.nn.Sequential(backbone, head).to(config["device"])
-        elif config["mode"] == "RML_E":
+        # if config["mode"] == "RML":
+        #     backbone = config["net"]()
+        #     head = RML_layer(config["in_feature"])
+        #     net = torch.nn.Sequential(backbone, head).to(config["device"])
+        # elif config["mode"] == "RML_E":
+        if config["mode"] == "RML_E":
             if config["info"] == "MDSH":
+                # net = MoCo_RML(config).to(config["device"])
                 net = MoCo_RML(config).to(config["device"])
+                head = MoCo_RML_head(config["in_feature"], bit_list=config["bit_list"], config=config).to(config["device"])
             else:
-                backbone = config["net"]()
+                # backbone = config["net"]()
                 # head = RML_E_layer(config["in_feature"])
-                if config["norm"]=='bias':
-                    head = RML_E_layer_norm(config["in_feature"])
-                elif config["norm"]=='batch':
-                    head = RML_E_layer_batchnrom(config["in_feature"])
-                elif config["norm"]=='all':
-                    head = RML_E_layer_allnorm(config["in_feature"])
-                elif config["norm"]=='no':
-                    head = RML_E_layer(config["in_feature"])
-                net = torch.nn.Sequential(backbone, head).to(config["device"])
+                # net = torch.nn.Sequential(backbone, head).to(config["device"])
+                net = config["net"]().to(config["device"])
+                head = RML_E_layer(config["in_feature"], bit_list=config["bit_list"]).to(config["device"])
+                # net = torch.nn.Sequential(backbone, head).to(config["device"])
         logging.basicConfig(filename=f"bl_logs/{config['info']}_{config['mode']}_distill:{config['distill']}_ana:{config['analysis']}_{config['dataset']}.log", level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
-        # if config["info"] in ["CSQ", "DCH", "DTSH"]:
-        #     grand_train_val(config, 64, net) # 随机指定一个bit，这里bit无作用
-        grand_train_val(config, 64, net) # 随机指定一个bit，这里bit无作用
+        grand_train_val(config, 64, net, head)
         if config["wandb"]:
             wandb.finish()
     

@@ -47,6 +47,12 @@ class CSQLoss(torch.nn.Module):
 
     # use algorithm 1 to generate hash centers
     def get_hash_targets(self, n_class, bit):
+        if bit not in [8,16,32,64,128]:
+            hash_centers = -1 + 2 * np.random.random((n_class, bit))
+            hash_centers = np.sign(hash_centers)
+            hash_centers = torch.from_numpy(hash_centers).float()
+            return hash_centers
+
         H_K = hadamard(bit)
         H_2K = np.concatenate((H_K, -H_K), 0)
         hash_targets = torch.from_numpy(H_2K[:n_class]).float()
