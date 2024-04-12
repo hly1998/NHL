@@ -1,5 +1,5 @@
 # NHL
-The codes for a paper, we provides our codes with 10 baselines. You can easily repr
+The codes for a paper, we provides our codes and 10 deep hashing baselines.
 
 # Main Dependencies
 + pytohn 3.8
