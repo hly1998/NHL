@@ -12,12 +12,12 @@ You can easily run our code by following steps:
 
 + Replace "{your root}" in the file "utils/tools.py" with your own file path.
 + We have prepered some cases in scripts/main.sh, you counld run the command "sh scripts/main.sh" to begin the training process. 
-+ Note that SHCIR and MDSH models should fisrt build their hash centers. We have prepred their hash centers in tmp_file/*, or you can using SHCIR_cg.py and SHCIR_cls.py to build the hash centers of SHCIR and bit_length/MDSH_cg.py to build the hash centers of MDSH.
++ Note that MDSH models should fisrt build hash centers. We have prepred their hash centers in tmp_file/*, or you can use bit_length/MDSH_cg.py to build the hash centers of MDSH.
 
 # The explanations of main options
 + --device: choose the used cuda.
 + --dataset: select a dataset from [cifar10, imagenet, coco]
-+ --info: choose a deep hashing model [CSQ, DBDH, DCH, DHN, DPN, DSH, DTSH, LCDSH, MDSH, SHCIR]
++ --info: choose a deep hashing model [CSQ, DBDH, DCH, DHN, DPN, DSH, DTSH, LCDSH, MDSH]
 + --mode: with or without NHL
 + --analysis: if True, use adaptive weight strategy
 + --distill: if True, use long-short cascade self-distillation
