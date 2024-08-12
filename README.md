@@ -1,5 +1,5 @@
 # NHL
-The codes for a paper, we provides our codes and 10 deep hashing baselines.
+The codes for a paper, we provides our codes and some deep hashing model baselines.
 
 # Main Dependencies
 + pytohn 3.8
@@ -17,7 +17,7 @@ You can easily run our code by following steps:
 # The explanations of main options
 + --device: choose the used cuda.
 + --dataset: select a dataset from [cifar10, imagenet, coco]
-+ --info: choose a deep hashing model [CSQ, DBDH, DCH, DHN, DPN, DSH, DTSH, LCDSH, MDSH]
++ --info: choose a deep hashing model [CSQ, DBDH, DCH, DHN, DPN, DSH, DTSH, LCDSH, SHCIR, MDSH]
 + --mode: with or without NHL
 + --analysis: if True, use adaptive weight strategy
 + --distill: if True, use long-short cascade self-distillation
