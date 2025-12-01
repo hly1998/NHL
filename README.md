@@ -1,5 +1,5 @@
 # NHL
-The codes for a paper, we provides our codes and some deep hashing model baselines.
+The codes for paper **Nested Hash Layer: A Plug-and-play Module for Multiple-length Hash Code Learning**, we provides our codes and some deep hashing model baselines.
 
 # Main Dependencies
 + pytohn 3.8
